@@ -63,9 +63,8 @@ app.get('/weather', (req,res)=>{
                 address: req.query.address
             })
         })
+        
     })
-
-    
 })
 app.get('/products', (req,res)=>{
 
